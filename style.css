@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+}
+
+body {
+    background-color: #fff;
+
+}
+
+ul {
+    color: #fff;
+    background-color: rgb(167, 221, 167);
+    display: flex;
+    font-size: 30px;
+    height: 60px;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: montserrat bold;
+}
+
+li {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+li:hover {
+    font-size: 35px;
+    transition: .5s;
+    color: green;
+}
+
+h1 {
+    color: rgb(167, 221, 167);
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: montserrat bold;
+    margin-top: 10%;
+
+}
+
+h2 {
+    color: rgb(167, 221, 167);
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: montserrat bold;
+}
+
+h3 {
+    color: rgb(167, 221, 167);
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: montserrat bold;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    width: 50%;
+    margin: 40px auto;
+}
+
+.casal {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.historia {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    width: 50%;
+    margin: 40px auto;
+}
+
+.nome {
+    display: flex;
+    color: #242923;
+    background-color: antiquewhite;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+    font-size: 40px;
+    border: 5px solid rgb(167, 221, 167);
+    box-shadow: 1px 1px green;
+    outline: none;
+    border-radius: 10px;
+
+}
+
+.nome:focus {
+    border: 1px solid green;
+    box-shadow: 1px rgb(167, 221, 167);
+}
+
+.memoria {
+    display: flex;
+    color: #242923;
+    background-color: antiquewhite;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    font-size: 40px;
+    border: 5px solid rgb(167, 221, 167);
+    box-shadow: 1px 1px green;
+    outline: none;
+    border-radius: 10px;
+}
+
+.memoria:focus {
+    border: 1px solid green;
+    box-shadow: 1px rgb(167, 221, 167)
+}
